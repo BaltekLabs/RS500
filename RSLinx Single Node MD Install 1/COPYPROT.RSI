@@ -1,0 +1,597 @@
+; File format is:
+;[Product Name]
+;DLL=NameOfDll
+;SubProduct=KeyName1,KeyName2
+
+[Master Keys]
+Master=RSI.Master
+Beta Master=BTA.Master
+
+[WinLogic]
+DLL=rswl16.dll
+WinLogic 5=WinAb5.exe
+WinLogic 5 Offline=WinAb5O.exe
+
+[WinView]
+DLL=rswv16.dll
+WinView=WinView.exe
+WinView 128=WinV128.exe
+WinView 256=WinV256.exe
+RunView=RunView.exe
+RunView 128=RunV128.exe
+RunView 256=RunV256.exe
+WinView Scripting=WVScrAll.exe
+RunView Scripting=WVScrRt.exe
+WinView Pro=WinViewP.exe
+WinView Pro 128=WinVP128.exe
+WinView Pro 256=WinVP256.exe
+RunView Pro=RunViewP.exe
+RunView Pro 128=RunVP128.exe
+RunView Pro 256=RunVP256.exe
+
+[WinTrend]
+DLL=rswt16.dll
+WinTrend=WinTrend.exe
+
+[RSTrend]
+DLL=rswt32.dll
+RSTrend=RSTrend.exe
+
+[WinQuality]
+DLL=rsqc16.dll
+WinQuality=WinQC.exe
+
+[WinReport]
+DLL=rsrpt16.dll
+WinReport=WinRpt.exe
+
+[WinEmulate]
+DLL=rsemu16.dll
+WinEmulate 5=WinEmu5.exe
+WinEmulate 500=WEmu500.exe
+
+[WinVision]
+DLL=rsvis16.dll
+WinVision 1=Vision1.exe
+WinVision 2=Vision2.exe
+
+[WinRecipe]
+DLL=rsrcp16.dll
+WinRecipe=WinRecip.exe
+
+
+[RSLogix 5]
+DLL=rsrs532.dll
+RSLogix 5=RSLgx5.exe
+
+[RSLogix Computer Based Training]
+DLL=rswbt32.dll
+RSLogix 500 CBT=PES500.cbt
+
+[RSTrainer]
+DLL=rswbt32.dll
+SLC-500=RSTrain.P03
+PLC-5=RSTrain.P06
+AC Drives=RSTrain.P13
+Hydraulics=RSTrain.P20
+MicroLogix=RSTrain.P23
+Pneumatics=RSTrain.P24
+Mechanisms=RSTrain.P26
+Electricity=RSTrain.P27
+Basic Technologies Bundle=RSTrain.P30
+All Trainers Bundle=RSTrain.P31
+
+[AI SLC-500]
+AI500 Online=on0.exe
+AI500 Offline=off0.exe
+AI500 Emulator=emu0.exe
+AI500 PID Tuner=pid0.exe,pid500.exe
+
+[AI PLC-5]
+AI5 Online=on5.exe
+AI5 Offline=off5.exe
+AI5 Emulator=emu5.exe
+AI5 PID Tuner=pid5.exe,pidt5.exe
+
+[AI PLC-2]
+AI2 Online=on2.exe
+AI2 Offline=off2.exe
+AI2 Emulator=emu2.exe
+AI PLC-2 to PLC-5 Converter=toplc5.exe
+
+[AI PLC-3]
+AI3 Online=on3.exe
+AI3 Offline=off3.exe
+
+[AI PLC-5/250]
+AI5/250 Online=on.exe
+AI5/250 Offline=off.exe
+
+[T3]
+T3 Logger=log.exe
+T3 Emulator=emu.exe
+
+[WinDCS]
+DLL=rsdcs16.dll
+WinDCS=WinDCS.exe
+WinDCS Viewer=WinDCSV.exe
+
+[RSVBX]
+DLL=rsvbx32.dll
+RSData VBX=icomdata.vbx
+RSServer VBX=icserver.vbx
+RSWidget VBX=icwidget.vbx
+
+[RSToolBox]
+DLL=rstbx16.dll
+Compare=RSCompa.ocx
+Gauge=RSGauge.ocx
+Slider=RSSlide.ocx
+Trend=RSTrend.ocx
+Numerical=RSNumer.ocx
+Vessel=RSVesse.ocx
+ThumbWheel=RSThumb.ocx
+Pushbutton=RSPushb.ocx
+Event=RSEvent.ocx
+Animate=RSAnima.ocx
+Portal=RSPortal.ocx
+RSTools=RSTools.ocx
+RSTools Pack 1=RSTool.Pak1
+RSTools Pack 2=RSTool.Pak2
+
+[RSBreakerBox]
+DLL=rsbb32.dll
+DDE=RSJbadde.exe
+TCP=RSJbtcp.exe
+OPC=RSJbopc.exe
+
+[AI Micrologix]
+AI MicroLogix Online=onm.exe
+AI MicroLogix Offline=offm.exe
+AI MicroLogix Emulator=emum.exe
+
+[RSSQL]
+DLL=rssql32.dll
+Standard Small=RSSqlStd.sml
+Standard Medium=RSSqlStd.med
+Standard Large=RSSqlStd.lrg
+Standard Unlimited=RSSqlStd.unl
+Pro Small=RSSqlPro.sml
+Pro Medium=RSSqlPro.med
+Pro Large=RSSqlPro.lrg
+Pro Unlimited=RSSqlPro.unl
+Enterprise Small=RSSqlEnt.sml
+Enterprise Medium=RSSqlEnt.med
+Enterprise Large=RSSqlEnt.lrg
+Enterprise Unlimited=RSSqlEnt.unl
+
+Pro 5K tag=RSSQLPRO.05K
+Pro 32K tag=RSSQLPRO.32K
+Pro 70K tag=RSSQLPRO.70K
+
+Compression Ent. Connector=RSSQLPRO.CMP
+COM+/MTS Ent. Connector=RSSQLPRO.MTS
+
+
+[RSRules]
+DLL=rsrul32.dll
+RSRules Developer=RSRulesD.exe
+RSRules Runtime=RSRulesR.exe
+RSRules Developer Beta=RSRulesD.bta
+RSRules Runtime Beta =RSRulesR.bta
+
+[VisualLogix]
+DLL=rscro32.dll
+Visual Logix=RSCro32.dll
+
+
+[RSLogix 500]
+dll=RSwl032.dll
+RSLogix 500=RS500.exe
+RSLogix 500 Starter=RS500S.exe
+
+[RSGuardian]
+dll=RSdvs32.dll
+RSGuardian SLC-5=SLC5Core.dll
+RSGuardian Beta Core with 4096 node limit=RSGUARDEB.EXE
+RSGuardian Beta Core with 128 node limit=RSGUARDPB.EXE
+RSGuardian Beta Core with 24 node limit=RSGUARDSB.EXE
+RSGuardian Core with 4096 node limit=RSGUARDE.EXE
+RSGuardian Core with 128 node limit=RSGUARDP.EXE
+RSGuardian Core with 24 node limit=RSGUARDS.EXE
+RSGuardian Add-on for A-B PLC-3=PLC3CORE.DLL
+RSGuardian Add-on for A-B PLC-5=PLC5CORE.DLL
+RSGuardian Add-on for A-B Panelview=PVCORE.DLL
+
+[RSEnergy]
+dll=RSen132.dll
+RSEnergy=ENPOWER.01,ENPOWER.02,ENPOWER.03,ENPOWER.04,ENPOWER.05,ENPOWER.06,ENPOWER.07,ENPOWER.08,ENPOWER.09,ENPOWER.10
+
+[RSPower]
+dll=rspow32.dll
+RSPower=rspower.exe
+RSPower Runtime=rsprun.exe
+RSPower Config=RSPCfg.exe
+
+[RSWorkBench]
+dll=RSwbp32.dll
+WorkBench=RSBench.exe
+Viewer=RSTempVw.exe
+Imager=RSImag32.exe
+Forge=RSForge.exe
+Pegboard=RSPegBrd.exe
+Drawer=RSDrawer.exe
+Outlet=RSOutlet.exe
+WorkBenchPro=RSBENPRO.BTA
+Draftsman=RSDRFTMN.BTA
+Form Library=RSFRMLIB.BTA
+Database Apprentice=RSDBAPP.BTA
+Event/Action Apprentice=RSEAAPP.BTA
+Code Library=RSCODLIB.BTA
+Property Manager=RSPROPMN.BTA
+Project Manager=RSPROJMN.BTA
+Control Manager=RSCTRLMN.BTA
+
+[RSTune]
+dll=RSwpd32.dll
+RSTune=RSTune.exe
+
+[RSTUNEPRO]
+dll=RSwpd32.dll
+RSTunePro=RStunpro.exe
+
+[RSView]
+dll=RScvw32.dll
+RSView D150=RSView.D150
+RSView R150=RSView.R150
+RSView D300=RSView.D300
+RSView R300=RSView.R300
+RSView D1500=RSView.D1500
+RSView R1500=RSView.R1500
+RSView D5K=RSView.D5K
+RSView R5K=RSView.R5K
+RSView D32K=RSView.D32K
+RSView R32K=RSView.R32K
+RSView D100K=RSView.D70K
+RSView R100K=RSView.R70K
+
+RSView Server=RSVRads.svr
+RSView Client=RSVRads.cli
+
+[RSEmulate500]
+dll=RSwe032.dll
+RSLogix Emulate 500=WE032.exe
+
+[RSTools]
+dll=RSocx32.dll
+RSTools ocx=RSTOOLS1.OCX,RSDATA1.OCX
+
+[RSWire]
+dll=RSwir32.dll
+RSWire Activation Required=RSWire.00
+Terminal Plan=RSWire.01
+Panel Layout=RSWire.02
+Autocad  versions Basic system=RSWire.03
+I/O Builder=RSWire.04
+Wire List=RSWire.05
+Standalone Version Basic system=RSWire.06
+Wire Diagram/Shortest distance=RSWire.07
+RSWire=RSWire.08,RSWire.09
+
+[RSViewSPC]
+dll=RSspc32.dll
+RSViewSPC=RSSPC.exe,RSSPC.bta
+
+[RSMailman]
+dll=RSmmn32.dll
+RSMailman Manager=RSMailmn.exe
+RSMailman Scheduler=RSMailsc.exe
+
+[RSTrendX]
+dll=RSview32.dll
+TrendX=RSTrend.exe
+
+[RSData]
+dll=RSocx32.dll
+RSDATA=RSData1.ocx
+
+[RSLinx]
+dll=rswd32.dll
+RSLinx=RSLinx.exe
+RSLinx OEM=RSLinx.oem
+RSLinx Gateway=RSLinx.gw
+RSLinx SDK=RSLinx.sdk
+
+[RSJunction Box]
+dll=RSjbp32.dll
+ADvanced DDE=rsjbadde.dll
+Block DDE=RSJbblck.bta
+OPC=RSJbopc.bta
+RSPortal Protocol Seat License=RSJbox32.dll
+
+[RSNetWorx]
+dll=RSntw32.dll
+RSNetWorx for Control Net=rsntwcn3.exe
+RSNetworx for DeviceNet=rsntwdn3.exe
+NetWorx=RSNTwcn3.exe
+@ A Glance=RSAag32.exe
+Reliance Automate=Rnet.exe
+DeviceNet=DNetDDE.exe
+Reliance AutoMax=RelDCS.exe
+
+[RSPortal]
+dll=RSptl32.dll
+RSPortal Seat Licence=rsptlstl.lic
+RSPortal Per Connection Licence=rsptlccl.lic
+RSPortal=rsportal.exe
+
+[RSSnapshot]
+dll=RSjbp32.dll
+Snapshot=rsnet32.dll
+
+[SoftLogix]
+dll=rssl532.dll
+SoftLogix 5=SOFTLGX5.EXE
+SideWinder=RSsdw_v1.exe
+Components=Channel.rsi
+
+[RSLogix SL 5]
+dll=RSrs532.dll
+RSLogix SoftLogix 5=RSLGXSL5.EXE
+
+[RSLogix Frameworks]
+dll=RSxld32.dll
+Frameworks Standard=RSFramw.Std
+Frameworks Professional=RSFramw.Pro
+Frameworks Runtime=RSFramw.Run
+
+[WinLinx Gateway]
+dll=RSwd16.dll
+WinLinx Gateway=ICWDSRVR.exe
+
+[WinLinx]
+dll=RSwd16.dll
+WinLinx=IcomWDrv.exe
+WinLinx Modicon=IcwdMod.exe
+WinLinx Server=IcwdSrvr.exe
+WinLinx Square D=SqrdWin.exe
+
+
+[RSLadder 500]
+dll=RSlad32.dll
+RSLadder 500=RSLad32.exe
+RSLadder ActiveX Control (for RSLogix 500)=rslad32.ocx
+
+[RSPowerTools]
+dll=RSOCX32.dll
+Alarm=RSAlm32.ocx
+Event=RSEvt32.ocx
+Animate=RSAnm32.ocx
+Ladder=RSLad32.ocx
+Power Tools=RSPwrTls.ocx
+RSToolBox=RSTool.Box
+RSWorkShop=RSWork.Shop
+
+[RSServer]
+dll=RSes32.dll
+RSServer=RSaag32.exe
+DeviceNet Server=DNetDDE.exe
+
+[RSToolbox32]
+dll=RSocx32.dll
+Toolbox 32=RSTOOL.BOX
+Compare=RSCmp32.exe
+Gauge=RSGge32.exe
+Data=RSDat32.exe
+Button=RSBtn32.exe
+Slider=RSSld32.exe
+Wheel=RSWhl32.exe
+Vessel=RSVsl32.exe
+Junction Box=RSJBox32.exe
+
+[Sidewinder]
+dll=RSswa32.dll
+Addin=swaddin.exe
+
+[Control_Container]
+dll=RScc32.dll
+Control Container=ccdev.exe
+
+[RSSidewinderX]
+dll=RSsdw32.dll
+Active X addin=RSSDW_V1.BTA,RSSDW_V1.OCX
+
+[RSLibrary_Builder]
+dll=RSLEM32.dll
+Library Builder=RSLEMLIB.EXE
+
+[RSFrameWorksSTD]
+dll=RSxlo32.dll
+rsframeworks_standard=RSFram.exe
+
+
+[Emulate16]
+dll=RSwe516.dll
+emulate 16 bit=RSWe016.dll
+
+[RSRad]
+dll=RSrad32.dll
+RSrad 32=rsrad32.exe
+
+[RSMessenger]
+dll=RSmsgr32.dll
+Messenger=RSMSNGR.BTA
+
+[RSLadder 5]
+dll=RSld532.dll
+RSLadder 5=RSLd532.exe
+
+[ControlPak]
+RSLogix SL5=RSLGXSL5.BTA
+RSLogix SL5=RSLGXSL5.EXE
+Sidewinder Addin for CtrlContainer Beta=SWADDIN.BTA
+Sidewinder Addin for CtrlContainer=SWADDIN.EXE
+CtrlContainer Development Beta=CCDEV.BTA
+CtrlContainer Development=CCDEV.EXE
+CtrlContainer Runtime Beta=CCRT.BTA
+CtrlContainer Runtime=CCRT.EXE
+SoftLogix 5 Beta=SOFTLGX5.BTA
+SoftLogix 5=SOFTLGX5.EXE
+RSSidewinderX Beta=RSSDW_V1.BTA
+RSSidewinderX=RSSDW_V1.OCX
+RSLibraryBuilder Beta=RSLEMLIB.BTA
+RSLibraryBuilder=RSLEMLIB.EXE
+
+[Server]
+dll=RSsec32.dll
+Security Server=RSSECSRV.EXE
+
+[RSEmulate16]
+dll=RSwe016.dll
+emulate 500=emulate.exe
+
+[RSEmulate 5 16bit]
+dll=RSwe516.dll
+emulate 5=emulate5.exe
+
+[RSEmulate 5]
+dll=RSwe532.dll
+=WE532.exe
+
+[GemTool]
+dll=RSGEM32.dll
+RSGEM32=Gemtool.rsi,Secshost.rsi
+
+[RSEmulate 500 16bit]
+dll=RSwe016.dll
+emulate for dos=emulate.exe
+
+[RSview_Application]
+dll=RSvacu32.dll
+VACU=ACUWW.BTA,ACUWW.EXE
+
+[RSBizWare ComplianceTrack]
+dll=RSctrk32.dll
+Authoring=CTrkAuth.EXE
+Auditing=CTrkAtor.EXE
+Auditee=CTrkATee.EXE
+DataModelExtensions=CTrkDMX.EXE
+Server=CTrkSvr.EXE
+
+[RSBizWare Historian]
+dll=RShist32.dll
+Server=Histstd.exe,HistAuth.exe
+Client=Hist150.exe,Hist300.exe,Hist1500.exe,Hist5000.exe,Hist32k.exe,Hist70k.exe
+Plug-In=Hist5tdm.exe,Histutdm.exe
+
+[RSView Studio ME]
+dll=RSvwme32.dll
+Development=RSVME.STUDIO
+
+[RSSecurity]
+DLL=rssec32.dll
+Security Server Beta=rssecsrv.bta
+Security Server=RSSecsrv.exe
+
+[RSTrainer 2000]
+dll=RStr2k32.dll
+RSTrainer 2000 for RSLogix 500=RST2K500.cbt
+RSTrainer 2000 for RSLogix 5=RST2K5.cbt
+
+[RSView Web Server]
+dll=RSvwwb32.dll
+Server=RSVHTML.SRV
+Server Beta=RSVHTML.BTA
+
+[RSBizwareScheduler]
+dll=RSschd32.dll
+RSBizware Scheduler=RSSchdau.exe
+RSBizware Scheduler Viewer=RSSchdvw.exe
+
+[Arena]
+dll=rssim32.dll
+Basic=ArenaBE.bta, ArenaBE.exe
+Standard=ArenaSE.bta, ArenaSE.exe
+Professional=ArenaPE.bta, ArenaPE.exe
+Blocks/Elements=ArenaSIM.bta, ArenaSIM.tpo
+Basic Process=ArenaBas.bta, ArenaBas.tpo
+Advanced Process=ArenaAdv.bta, ArenaAdv.tpo
+Advanced Transfer=ArenaTrn.bta, ArenaTrn.tpo
+Contact 100=ArenaCC.bta, ArenaCC.tpo
+Contact 250=ArenaCC1.bta, ArenaCC1.bit
+Contact unlimited=ArenaCC2.bta, ArenaCC2.bit
+Packaging=ArenaPkg.bta, ArenaPkg.tpo
+RealTime=ArenaRT.bta, ArenaRT.bit
+SIMAN=ArenaCLS.bta, ArenaCLS.exe
+OptQuest=ArenaOpt.bta, ArenaOpt.exe
+
+[RSBizWare PlantMetrics]
+dll=RSpm32.dll
+Authoring=PltmAuth.exe
+Runtime=PltmStd.exe
+Server 5 Workcells=Pltm5.exe
+Server 10 Workcells=Pltm10.exe
+Server 25 Workcells=Pltm25.exe
+Server 50 Workcells=Pltm50.exe
+Server 100 Workcells=Pltm100.exe
+Server 200 Workcells=Pltm200.exe
+
+[ControlNet Hotbackup Analyzer]
+dll=RSCHBA32.dll
+CHBA=CHBA.exe
+
+[RSMaintenance Suite]
+dll=RSMate32.dll
+PocketLogix=Pktlgx.exe
+Maintenance Suite=MaintCE.exe
+PocketPartner=PktPart.exe
+Maintenance Update=MaintCE.upd
+
+[IABU Activation Server]
+dll=RSIABU32.dll
+Key=Key.exe
+
+[RSLogix 5000]
+dll=rsrld32.dll
+RSLogix 5000 RLL Editor=RS5000.exe
+RSLogix 5K RLL FBD Bundle=RS5K_700.exe
+RSLogix 5000 FBD Editor=RS5K_FBD.exe
+RSLogix 5K RLL FBD Bundle2=RS5K_300.exe
+
+[SoftLogix 5860]
+dll=RSSL5K32.dll
+SoftLogix 5860=SftLgx58.60
+SoftLogix 5830=SftLgx58.30
+SoftLogix 5810=SftLgx58.10
+
+
+[RSBatch]
+dll=RSrsb32.dll
+RSBatch=RSB0000.exe
+RSBatch 250=RSB0250.exe
+RSBatch 500=RSB0500.exe
+RSBatch 1000=RSB1000.exe
+RSBatch 2500=RSB2500.exe
+RSBatch 5000=RSB5000.exe
+RSBoard 250=RSBrd250.exe
+RSBoard 500=RSBrd500.exe
+RSBoard 1k=RSBrd1k.exe
+RSBoard 5k=RSBrd5k.exe
+RSBatch DDE=RSBede.exe
+RSBatch SQL=RSBsqlr.exe
+
+[RSBatchCampaignManager]
+dll=RSCamp32.dll
+RSBatchCampaignManager=RSCamp32.exe
+
+[RSLogix Guard]
+dll=RSralf32.dll
+Base key=RSrbas32.exe
+2000 extension key=RSrC3b32.exe
+Userdef Function Blocks=RSrfbs32.exe
+CCC base=RSrpro32.exe
+CCC extension=RSrC3p32.exe
+
+[RSLoop Optimizer]
+dll=RSPrcP32.dll
+RSLoop Optimizer=RSLOOPOP.EXE
